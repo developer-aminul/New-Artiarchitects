@@ -24,6 +24,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
     padding-left: 10%;
     padding-right: 10%;
     /* background-color:rgba(25, 86, 78, 0.9); */
@@ -54,10 +55,7 @@ padding-top: 50px;
     font-weight: 400;
     padding-bottom: 10px;
 }
-.header-button{
-    padding: 10px;
-}
-.header-button button{
+.primary-button button{
     padding: 10px;
     border-radius: 5px;
     font-size: 18px;
@@ -69,4 +67,105 @@ padding-top: 50px;
     width: 800px;
     height: 400px;
 
+}
+.container{
+    width: 100%;
+}
+/* quick section styles */
+.quick-section{
+display: flex;
+gap: 30px;
+align-items: center;
+padding-top: 40px;
+}
+
+  
+.quick-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10px;
+    justify-content: center;
+    padding-left: 15%;
+
+}
+.quick-image img{
+    height: 150px;
+    width: 150px;
+}
+.quick-title{
+    font-size: 35px;
+    font-weight: 400px;
+}
+.quick-list{
+    color: #727272;;
+}
+.features{
+    color: #FF900E;;
+}
+.quick-des{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.quick-text{
+    margin-right: 15%;
+}
+/* service styles */
+
+.love-section{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 70px;
+}
+.love-image img{
+    height: 950px;
+    width: 400px;
+}
+.love-title{
+    font-size: 45px;
+    font-weight: 700px;
+    border-left: 5px solid #FF900E;
+    padding-left: 5px;
+}
+.love-des{
+    font-size: 12px;
+    font-weight: 400px;
+    padding-top: 15px;
+}
+.love-service{
+    margin-left: 15px;
+    padding-top: 15px;
+}
+.service-item{
+padding:25px;
+margin-bottom: 30px;
+border-radius: 5px;
+box-shadow:4px 8px 7px 2px #e9d4d4;
+}
+.service-title{
+    font-size: medium;
+    font-weight: bold;
+}
+.service-des{
+    font-size:12px
+}
+.button-year button{
+    background-color: #FF900E;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.button-year{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    transform: translate(60px,-60px);
+
+}
+.button-year button{
+    padding: 10px;
+}
+button .ten-year{
+    font-size: 30px;
 }

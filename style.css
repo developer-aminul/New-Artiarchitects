@@ -258,3 +258,27 @@ padding-bottom: 50px;
     background-color:blue;
     color: aliceblue;
 }
+
+/* sponsore style */
+.spon-text{
+    text-align: center;
+    padding-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 50px;
+}
+.spon-text-des{
+    font-size: 14px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 10px;
+}
+.spon-company{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.spon-company-name img{
+    width: 100px;
+    filter: grayscale(100%);
+}

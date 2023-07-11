@@ -282,3 +282,20 @@ padding-bottom: 50px;
     width: 100px;
     filter: grayscale(100%);
 }
+/* footer styles */
+footer{
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.footer-section{
+    text-align: center;
+    padding: 20px;
+    background-color: blanchedalmond;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+   
+}
+.footer-text{
+    font-size: 12px;
+}

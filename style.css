@@ -169,3 +169,92 @@ box-shadow:4px 8px 7px 2px #e9d4d4;
 button .ten-year{
     font-size: 30px;
 }
+.fact-section{
+    padding-top: 50px;
+   padding-left: 10%;
+}
+.fact-title{
+    padding-bottom: 15px;
+}
+.fact-des{
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 30%;
+    padding-bottom: 40px;
+}
+.fact-item{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 30px;
+justify-content: center;
+padding-left: 10%;
+padding-right: 10%;
+padding-top: 25px;
+padding-bottom: 50px;
+}
+.item-box{
+    border: 1px solid;
+    border-radius:5px;
+    padding: 10px;
+    text-align: center;
+    height: 150px;
+    width: 150px;
+
+}
+.box-title{
+}
+.box-des{
+    font-size: 12px;
+}
+.item-nano-box > img{
+    padding-top: 15px;
+}
+.item-box:hover{
+    transform: rotate(45deg);
+    transform: scale(-25px);
+}
+.item-nano-box:hover{
+    transform: rotate(-45deg);}
+
+.item-nano-box{
+    height: 150px;
+    width: 150px;
+}
+/* newslater section style */
+
+.newslater-section{
+    text-align: center;
+    background-color:rgba(141, 233, 37, 0.26); 
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    padding: 40px;
+}
+.newslater-title{
+    font-size: 45px;
+}
+.newslater-des{
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.email-box{
+  border: 1px solid;
+  border-radius: 10px;
+  margin-right: 30%;
+  margin-left: 30%;
+  background-color: white;
+}
+.email-box  input{
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+}
+.email-box button{
+    border: none;
+    border-radius: 6px;
+    padding: 5.3px;
+    margin-left:50px;
+    background-color:blue;
+    color: aliceblue;
+}

@@ -201,8 +201,6 @@ padding-bottom: 50px;
     width: 150px;
 
 }
-.box-title{
-}
 .box-des{
     font-size: 12px;
 }
@@ -392,7 +390,7 @@ width: 100%;
 .love-section{
     flex-direction: column;
 }
-..love-image img{
+.love-image img{
     width: 100%;
 }
 .button-year{

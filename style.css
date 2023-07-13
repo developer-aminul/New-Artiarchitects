@@ -348,6 +348,74 @@ footer{
 .fact-item{
     grid-template-columns: repeat(1,1fr);
     gap: 35px;
-    padding-left: 50px;
+    padding-left: 30%;
+}
+.footer-text{
+    font-size: 10px;
+}
+}
+/* tablet mood */
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+.container{width: 100%;}
+    nav a{
+      padding: 0;
+      margin: 0;
+    }
+    .logo{
+        font-size: 35px;
+}
+nav{
+justify-content: center;
+gap: 70px;
+}
+.menu-list {
+ display: flex;
+ gap: 30px;
+}
+.header-image img{
+width: 100%;
+}
+.quick-section{
+    flex-direction: column;
+}
+.quick-image{
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+}
+.quick-image img{
+  width: 100%;
+}
+.quick-text{
+    padding-left: 10%;
+}
+.love-section{
+    flex-direction: column;
+}
+..love-image img{
+    width: 100%;
+}
+.button-year{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    transform: translate(0px,0px);
+}
+.button-year button{
+    padding: 10px 50px;
+}
+.fact-section{
+    padding-top: 50px;
+   padding-left: 20%;
+}
+.fact-item{
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 20%;
+}
+.spon-company-name img{
+    width: 100%;
+}
+.spon-company{
+    padding: 0 50px;
 }
 }
